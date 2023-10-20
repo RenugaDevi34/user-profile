@@ -1,0 +1,27 @@
+{
+  "name": "user-profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "jest": {
+    "collectCoverage": true
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/cosmos": "^3.14.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "dotenv-extended": "^2.9.0",
+    "dotenv-parse-variables": "^2.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.14",
+    "supertest": "^6.1.6"
+  }
+}
